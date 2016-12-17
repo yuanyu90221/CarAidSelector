@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">租車選擇App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second">選車結果</string>
+    <string-array name="rentTpArr">
+        <item >機車</item>
+        <item >跑車</item>
+        <item >休旅車</item>
+        <item >賓士</item>
+    </string-array>
+    <string-array name="area_tp">
+        <item >台北</item>
+        <item >台中</item>
+        <item >台南</item>
+        <item >高雄</item>
+    </string-array>
+    <string name="renter">租車人:</string>
+    <string name="rentCarStr">租車類型:</string>
+    <string name="payTpStr">付款類型:</string>
+    <string name="rentStartLoc">租借地:</string>
+    <string name="rentEndLoc">還車地:</string>
+    <string name="cashStr">現金</string>
+    <string name="creditCarStr">信用卡</string>
+    <string name="sendForm">送出租車單</string>
+    <string name="reRentForm">重填租車單</string>
+
+</resources>

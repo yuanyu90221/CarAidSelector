@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.example.caraidselector.SecondActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="#FFDD00FF">
+
+        <TextView
+            android:id="@+id/rent_result_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:text="@string/renter"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/rent_current_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/rentCarStr"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/tp_image"
+        android:layout_width="fill_parent"
+        android:layout_height="400px"
+        android:gravity="center_vertical|center_horizontal"
+        android:src="@drawable/rent_logo"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="#FFDD00FF">
+
+        <TextView
+            android:id="@+id/rent_from"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:text="@string/rentStartLoc"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/rt_from"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center_vertical|center_horizontal"
+            android:text=""
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="#FFDD00FF">
+
+        <TextView
+            android:id="@+id/rent_to"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:text="@string/rentEndLoc"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/rt_to"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center_vertical|center_horizontal"
+            android:text=""
+            android:textSize="20sp" />
+    </LinearLayout>
+
+	 <LinearLayout
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content" 
+	     android:background="#FFDD00FF">
+         
+	     <TextView
+	         android:id="@+id/pay_tp"
+	         android:layout_width="0dp"
+	         android:layout_height="match_parent"
+	         android:layout_weight="1"
+	         android:gravity="right|center_vertical"
+	         android:text="@string/payTpStr"
+	         android:textSize="20sp" />
+
+	     <TextView
+	         android:id="@+id/pay_tp_txt"
+	         android:layout_width="0dp"
+	         android:layout_height="match_parent"
+	         android:layout_weight="2"
+	         android:gravity="center_vertical|center_horizontal"
+	         android:text=""
+	         android:textSize="20sp" />
+	 </LinearLayout>
+
+	 <Button
+	     android:id="@+id/goback"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_gravity="center_vertical|center_horizontal"
+	     android:gravity="center_vertical|center_horizontal"
+	     android:text="@string/reRentForm"
+	     android:textSize="20sp" />
+
+</LinearLayout>
