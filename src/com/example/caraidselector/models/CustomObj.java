@@ -3,7 +3,7 @@ package com.example.caraidselector.models;
 import java.io.Serializable;
 
 public class CustomObj implements Serializable {
-	//°µª©¥»­İ®e©Ê
+	//ç”¨ä¾†åšç›¸å®¹æ€§çš„æ¿è™Ÿ
 	private static final long serialVersionUid = 1L;
 	
 	private String rent_name;

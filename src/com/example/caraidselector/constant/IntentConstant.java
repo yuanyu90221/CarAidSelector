@@ -1,7 +1,7 @@
 package com.example.caraidselector.constant;
 
 public final class IntentConstant {
-	//客製化的obj
+	//Custom object
 	public static final String CUSTOM_OBJ = "customObj";
 	
 }

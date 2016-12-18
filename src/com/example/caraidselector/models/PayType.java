@@ -1,8 +1,8 @@
 package com.example.caraidselector.models;
 
 public enum PayType {
-	CREDIT("«H¥Î¥d",0),
-	CASH("²{ª÷",1);
+	CREDIT("ä¿¡ç”¨å¡",0),
+	CASH("ç¾é‡‘",1);
 	private String typeName;
 	private int id;
 	

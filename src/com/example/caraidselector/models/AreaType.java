@@ -1,11 +1,11 @@
 package com.example.caraidselector.models;
 
 public enum AreaType {
-	TAIPEI("¥x¥_",0),
-	TAICHUNG("¥x¤¤",1),
-	TAINAN("¥x«n",2),
-	KAOHSUING("°ª¶¯",3),
-	NODEF(" ¥¼©w¸q",-1);
+	TAIPEI("å°åŒ—",0),
+	TAICHUNG("å°ä¸­",1),
+	TAINAN("å°å—",2),
+	KAOHSUING("é«˜é›„",3),
+	NODEF("æœªå®šç¾©",-1);
 	private String areaName;
 	private int id;
 	private AreaType(String areaName, int id){

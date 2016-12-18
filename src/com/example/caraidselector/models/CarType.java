@@ -1,11 +1,11 @@
 package com.example.caraidselector.models;
 
 public enum CarType {
-	MOTORBIKE("¾÷¨®",0),
-	SPORTSCAR("¶]¨®",1),
-	SUV("¥ð®È¨®",2),
-	BENS("»«¤h",3),
-	NODEF(" ¥¼©w¸q",-1);
+	MOTORBIKE("æ©Ÿè»Š",0),
+	SPORTSCAR("è·‘è»Š",1),
+	SUV("ä¼‘æ—…è»Š",2),
+	BENS("è³“å£«",3),
+	NODEF("æœªå®šç¾©",-1);
 	
 	private String typeName;
 	private int id;

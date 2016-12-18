@@ -41,13 +41,13 @@ public class MainActivity extends Activity implements OnClickListener,android.vi
 		rentEdOp = (Spinner) findViewById(R.id.rentEdOp);
 		payTp = (RadioGroup)findViewById(R.id.payTp);
 		AlertDialog.Builder bdr = new AlertDialog.Builder(this);
-	        bdr.setMessage("Åwªï¨Ó¨ìµL¥»¯²¨®\n" // ¥[¤J¤å¦r°T®§
-	        				+"½Ğ«öªğ¦^ÁäÃö³¬¥æ½Íµ¡!");
-	        bdr.setTitle("±M·~¯²¨®");        // ¥[¤J¼ĞÃD                  
-	        bdr.setIcon(R.drawable.rent_logo_small); // ¥[¤J¹Ï¥Ü
+	        bdr.setMessage("æ­¡è¿ä¾†åˆ°ç„¡æœ¬ç§Ÿè»Š\n" //è¨­å®šè¦–çª—è¨Šæ¯
+	        				+"è«‹æŒ‰äº†è§£éµæˆ–è¿”å›éµ");
+	        bdr.setTitle("ç„¡æœ¬ç§Ÿè»Š");        // è¨­å®šè¦–çª—æ¨™é¡Œ            
+	        bdr.setIcon(R.drawable.rent_logo_small); // è¨­å®šicon
 	      
-	        bdr.setCancelable(true);   // ¤¹³\«öªğ¦^ÁäÃö³¬¥æ½Íµ¡
-	        bdr.setPositiveButton("¤F¸Ñ", this);  // ¥[¤J§_©w«ö¶s
+	        bdr.setCancelable(true);   // è¨­å®šå¯ä»¥æŒ‰è¿”å›éµå–æ¶ˆ
+	        bdr.setPositiveButton("äº†è§£", this);  //è¨­å®šbuttonæ–‡å­—
 	        bdr.show();
 	   
 	    refreshAll();
